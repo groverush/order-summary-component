@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap');
+/* TailwindCss */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    :root {
+        
+        --primary-color: 245deg 75% 52%;
+        --neutral-color: 225deg 100% 98%;
+        --neutral2-color: 224deg 23% 55%;
+        --neutral3-color: 223deg 47% 23%;
+    }
+}
+
+body {
+    background-color: hsl(225deg 100% 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
